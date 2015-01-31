@@ -1,0 +1,88 @@
+body {
+	background-color:#333;
+}
+
+#container {
+	background-color:#eee;
+}
+
+.inset {
+	width:90%;
+	max-width:400px;
+	margin:0px auto;
+	padding:25px 0px;
+}
+
+header {   padding:20px; background-color:#3594d4; }
+
+
+nav#mainmenu { text-align: center; margin-bottom: 15px; }
+nav#mainmenu a {
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #fbfbfb;
+	color: #202020;
+	text-decoration: none;
+}
+nav#mainmenu a:hover {
+	background-color: #fba356;
+}
+nav#mainmenu a.selected {
+	background-color: #e3e0e0;
+}
+
+#main {
+	background-color: #fffff9;
+	border-radius: 10px;
+	padding: 65px;
+	min-height: 300px;
+}
+
+#mainmenu nav a.theOne { background-color: #ffffff; }
+
+#main {    padding:20px; background-color: #ffffff; }
+footer {   padding:20px; background-color: #3594d4; }
+
+
+section { min-height: 300px; border-bottom: solid 10px #333; }
+
+
+
+
+
+
+	#tabbed {
+				font-family: Helvetica, Arial, sans-serif;
+
+				border:solid 10px #d3d8d3;
+				padding: 25px;
+				width: 600px;
+				margin: auto;
+			}
+			#tabbed nav.tab-links a {
+				display: inline-block;
+				background-color: #cfe1d9;
+				color: #222321;
+				width: 150px;
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+				text-decoration: none;
+			}
+			#tabbed nav.tab-links a:hover { background-color: #d3d8d3; }
+			#tabbed nav.tab-links a.chosen { background-color: #b9bebc; }
+
+			#tabbed section.tab {
+				background-color: #dde1d7;
+				padding: 25px;
+				margin-bottom: 15px;
+			}
+			#tabbed section.tab img {
+				float: left;
+				margin: 0px 10px 0px 0px;
+			}
+			#tabbed section.tab h1 { margin: 0px; font-size: 50px; color: #464844; }
+			#tabbed section.tab p { margin: 0px; font-size: 18px; line-height: 24px; }
