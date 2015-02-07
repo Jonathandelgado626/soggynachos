@@ -84,5 +84,5 @@ section { min-height: 300px; border-bottom: solid 10px #333; }
 				float: left;
 				margin: 0px 10px 0px 0px;
 			}
-			#tabbed section.tab h1 { margin: 0px; font-size: 50px; color: #464844; }
+			#tabbed section.tab h1 { margin: 0px; font-size: 30px; color: ; }
 			#tabbed section.tab p { margin: 0px; font-size: 18px; line-height: 24px; }
