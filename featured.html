@@ -19,10 +19,48 @@
 				<a href="contact.html">C o n t a c t</a>
 			</nav>
 			<div id="main">
-				<div class="content">
-				<img src="_img/bike.jpg" height="300" width="345">	
+			<style type="text/css">
+			#swap {
+				border:solid 10px #c8cacc;
+				padding: 25px;
+				text-align: center;
+				width: 600px;
+				margin: auto;
+			}
+			#swap img.large { margin-bottom: 15px;}
+			#swap .thumbs img {
+				width: 150px;
+				height: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Featured Artist - Barry Mcgee</h1>
+		<div id="swap">
+			<img class="large" src="_img/mcgee3.jpg" height="300" width="345">	
+
+			<div class="thumbs">
 				<img src="_img/rvca.jpg" height="300" width="345">	
-				RVCA Artist Barry Mcgee colaborates with Cinelli.
+				<img src="_img/mcgee1.jpg" height="300" width="345">
+				<img src="_img/mcgee.jpg" height="300" width="345">
+				<img src="_img/mcgee2.jpg" height="300" width="345">
+				<img src="_img/mcgee3.jpg" height="300" width="345">
+				<img src="_img/mcgee4.jpg" height="300" width="345">
+			
+
+			</div>
+		</div>
+		<script type="text/javascript" src="_js/jquery-1.11.0.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var large = $('#swap img.large');
+
+				$('#swap .thumbs img').mouseover(function(){
+					var theSrc = $(this).attr('src');
+					large.attr('src',theSrc);
+				});
+			});
+		</script>
 				</div>
 			</div>
 		 </div>	
