@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<widget xmlns   = "http://www.w3.org/ns/widgets"
+	id 				= "http://phonegap.com/ns/1.0"
+	versionCode 	= "com.phonegap.example"
+	version 		= "1.0.0" >
+
+
+	<name>SoggyNachos</name
+
+	<description>
+		an exapmle of phone gap build docs.
+	</description>
+
+	<author href="https://buid.phonegap.com" email="support@phonegap.com">
+		Hardee[ Shoker
+	</author>
+
+	<!----- Camera Plugin ------->	
+	<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+
+	<!----- GeoLocation Plugin ------->	
+	<gap:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
+
+
+</widget>
