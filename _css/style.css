@@ -51,39 +51,40 @@ footer {   padding:20px; background-color: #3594d4; }
 section { min-height: 300px; border-bottom: solid 10px #333; }
 
 
+#tabbed {
+font-family: Helvetica, Arial, sans-serif;
+
+border:solid 10px #d3d8d3;
+padding: 25px;
+width: 300px;
+margin: auto;
+}
+#tabbed nav.tab-links a {
+display: inline-block;
+background-color: #cfe1d9;
+color: #222321;
+width: 97px;
+height: 50px;
+line-height: 50px;
+text-align: center;
+text-decoration: none;
+}
+#tabbed nav.tab-links a:hover { background-color: #d3d8d3; }
+#tabbed nav.tab-links a.chosen { background-color: #b9bebc; }
+
+#tabbed section.tab {
+background-color: #dde1d7;
+padding: 25px;
+margin-bottom: 15px;
+}
+#tabbed section.tab img {
+float: left;
+margin: 0px 10px 0px 0px;
+}
+#tabbed section.tab h1 { margin: 0px; font-size: 20px; color: ; }
+#tabbed section.tab p { margin: 0px; font-size: 12px; line-height: 24px; }
 
 
 
 
-	#tabbed {
-				font-family: Helvetica, Arial, sans-serif;
 
-				border:solid 10px #d3d8d3;
-				padding: 25px;
-				width: 600px;
-				margin: auto;
-			}
-			#tabbed nav.tab-links a {
-				display: inline-block;
-				background-color: #cfe1d9;
-				color: #222321;
-				width: 150px;
-				height: 50px;
-				line-height: 50px;
-				text-align: center;
-				text-decoration: none;
-			}
-			#tabbed nav.tab-links a:hover { background-color: #d3d8d3; }
-			#tabbed nav.tab-links a.chosen { background-color: #b9bebc; }
-
-			#tabbed section.tab {
-				background-color: #dde1d7;
-				padding: 25px;
-				margin-bottom: 15px;
-			}
-			#tabbed section.tab img {
-				float: left;
-				margin: 0px 10px 0px 0px;
-			}
-			#tabbed section.tab h1 { margin: 0px; font-size: 30px; color: ; }
-			#tabbed section.tab p { margin: 0px; font-size: 18px; line-height: 24px; }
